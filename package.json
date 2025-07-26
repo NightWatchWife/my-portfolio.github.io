@@ -1,0 +1,36 @@
+{
+  "name": "my-portfolio.github.io",
+  "version": "1.0.0",
+  "description": "My Portfolio Website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy": "npm run build && touch out/.nojekyll"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/styled-components": "^5.1.34",
+    "next": "^15.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.4.4",
+    "typescript": "^5.7.2"
+  }
+}
